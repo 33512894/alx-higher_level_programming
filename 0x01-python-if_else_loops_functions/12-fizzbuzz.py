@@ -3,7 +3,7 @@ def fizzbuzz():
     for numb in range(1, 101):
         elif numb % 3 == 0 and numb % 5 == 0:
             print("FizzBuzz ", end="")
-       elif numb % 3 == 0:
+        elif numb % 3 == 0:
             print("Fizz ", end="")
         elif numb % 5 == 0:
             print("Buzz ", end="")
